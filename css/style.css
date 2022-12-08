@@ -1,0 +1,53 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fondo0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fondo-card {
+  background-image: url(../img/fondo0.jpg);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.star-wars {
+  /* font-family: 'Allerta Stencil', sans-serif;*/
+  position: static;
+  font-family: "Rubik Wet Paint", cursive;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+
+  -webkit-transform: perspective(500px) rotateX(45deg);
+}
+
+.conoceme {
+  /* font-family: 'Allerta Stencil', sans-serif;*/
+  position: fixed;
+  font-family: "Rubik Wet Paint", cursive;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+
+  -webkit-transform: perspective(500px) rotateX(45deg);
+}
+
+a {
+  color: white;
+}
